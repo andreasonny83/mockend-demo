@@ -1,11 +1,9 @@
 {
   "Post": {
-    "title": { 
-      "string": {
-        "loremSentences": { 
-          "minLength": 10, "maxLength": 20
-        }
-      } 
+    "title": {
+      "loremSentences": {
+        "minLength": 10, "maxLength": 20
+      }
     },
     "author": {
       "belongsTo": "User"
@@ -16,10 +14,8 @@
   },
   "Comment": {
     "body": {
-      "string": {
-        "loremParagraphs": { 
-          "minLength": 100, "maxLength": 200
-        }
+      "loremParagraphs": {
+        "minLength": 100, "maxLength": 200
       }
     },
     "post": {
