@@ -15,9 +15,7 @@
         "minLength": 100, "maxLength": 200
       }
     },
-    "post": {
-      "belongsTo": "Post"
-    }
+    "post": "Post"
   },
   "User": {
     "name": {
