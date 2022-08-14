@@ -5,9 +5,6 @@
         "minLength": 10, "maxLength": 20
       }
     },
-    "author": {
-      "belongsTo": "User"
-    },
     "comments": {
       "hasMany": "Comment"
     }
