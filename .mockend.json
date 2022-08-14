@@ -17,6 +17,9 @@
     },
     "post": {
       "belongsTo": "Post"
+    },
+    "author": {
+      "belongsTo": "User"
     }
   },
   "User": {
